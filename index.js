@@ -1,15 +1,15 @@
-//Za pomoc¹ directive require ³adujemy (load) modu³ express
+//Za pomocÂ¹ directive require Â³adujemy (load) moduÂ³ express
 var express = require('express')
 var app = express()
 
 
-//definiujemy response dla requestów w root URL (/)
+//definiujemy response dla requestÃ³w w root URL (/)
 app.get('/', function (req, res) {
-  res.send('Hello World!')
+  res.send('Hello World! Sandboxes are awesome!')
 })
 
 
-//aplikacja uruchamia serwer s³uchaj¹cy na porcie 8081
+//aplikacja uruchamia serwer sÂ³uchajÂ¹cy na porcie 8081
 app.listen(8081, function () {
   console.log('app listening on port 8081!')
 })
